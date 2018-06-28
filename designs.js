@@ -4,15 +4,15 @@ function makeGrid() {
 	
 	// Select size input
 	
-	var canvas, cell, gridHeight, gridWidth, rows;
+	var canvas, cell,height,width, rows;
 	
 	canvas = $('#pixel_canvas');
-	gridHeight = $('#input_height').val();
-	gridWidth = $('#input_width').val();
+	height = $('#input_height').val();
+	width = $('#input_width').val();
 	
 	canvas.children().remove()
 	
-	for (x = 0; x < gridHeight; x++) {
+	for (x = 0; x < height; x++) {
 	canvas.append('<tr></tr>');
 	}
 	
