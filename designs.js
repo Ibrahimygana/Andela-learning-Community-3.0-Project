@@ -3,7 +3,7 @@ function makeGrid() {
   
   // Select size input
   
-  var canvas, cell, Height, Width, rows;
+  var canvas, cell, height, width, rows;
   
   canvas = $('#pixel_canvas');
   height = $('#input_height').val();
@@ -26,7 +26,7 @@ function makeGrid() {
   // When td is clicked by the user, change color of td
   cell.click(function() {
     // Select color input
-    console.log("changeColor is running!");
+    console.log();
     var color;
     color = $("#colorPicker").val();
     $(this).attr('bgcolor', color);
